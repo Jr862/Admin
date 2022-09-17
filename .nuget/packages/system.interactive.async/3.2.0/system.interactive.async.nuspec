@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Interactive.Async</id>
+    <version>3.2.0</version>
+    <authors>.NET Foundation and Contributors</authors>
+    <owners>.NET Foundation and Contributors</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/Reactive-Extensions/Rx.NET/master/Ix.NET/Source/license.txt</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkId=261273</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkId=261274</iconUrl>
+    <description>Interactive Extensions Async Library used to express queries over asynchronous enumerable sequences.</description>
+    <copyright>Copyright (c) .NET Foundation and Contributors.</copyright>
+    <tags>Ix Interactive Extensions Enumerable Asynchronous</tags>
+    <repository type="git" url="https://github.com/dotnet/reactive.git" commit="e6549cefd73e91e27dd81f6ee3fae784975bac0d" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
